@@ -27,7 +27,6 @@ env:
   FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT: 80
   HOMEBREW_NO_INSTALL_CLEANUP: TRUE
   BUNDLE_PATH: vendor/bundle
-  CAS_DERIVED_DATA_PATH: ${{ runner.temp }}/homeassistant-cas-derived-data
 
 jobs:
   cas-cache:
